@@ -100,25 +100,15 @@ function HeroSection() {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.65, delay: 0.15 }}
-          className="mx-auto w-full max-w-md"
+          className="mx-auto flex w-full max-w-md justify-center lg:justify-end"
         >
-          <div className="relative rounded-3xl border border-slate-700 bg-slate-900/80 p-6 shadow-2xl shadow-sky-900/20">
-            <div className="absolute -top-12 right-6 h-28 w-28 rounded-full bg-cyan-400/20 blur-2xl" />
-            <div className="absolute -bottom-10 left-4 h-24 w-24 rounded-full bg-sky-600/20 blur-2xl" />
-
-            <div className="mb-4 flex gap-2">
-              <span className="h-3 w-3 rounded-full bg-red-400" />
-              <span className="h-3 w-3 rounded-full bg-yellow-400" />
-              <span className="h-3 w-3 rounded-full bg-green-400" />
-            </div>
-
-            <pre className="overflow-x-auto text-sm leading-relaxed text-slate-300">
-              <code>{`const engineer = {
-  name: 'Saumya Tiwari',
-  focus: ['Backend APIs', 'Scalable Systems', 'AI Apps'],
-  currentGoal: 'Engineer reliable systems with measurable impact',
-};`}</code>
-            </pre>
+          <div className="relative">
+            <div className="absolute inset-0 -z-10 rounded-full bg-blue-500 opacity-25 blur-3xl" />
+            <img
+              src="/profile.jpeg"
+              alt="Saumya Tiwari"
+              className="h-64 w-64 rounded-full border-4 border-blue-500 object-cover shadow-xl transition duration-300 hover:scale-105 sm:h-72 sm:w-72"
+            />
           </div>
         </motion.div>
       </div>
