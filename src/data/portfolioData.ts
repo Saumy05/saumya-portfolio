@@ -175,7 +175,7 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     role: 'Research Intern',
-    company: 'ISRO (NRL)',
+    company: 'ISRO (NARL)',
     period: 'Sep 2025 - Jan 2026',
     highlights: [
       'Engineered backend-driven dashboards for real-time lightning data visualization and analysis workflows.',
